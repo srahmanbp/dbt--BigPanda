@@ -6,6 +6,10 @@ name: 'dbt_intercom'
 version: '1.0.0'
 config-version: 2
 
+vars:
+    intercom_database: DWH
+    intercom_schema: REVOPS_INTERCOM_RAW
+
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
